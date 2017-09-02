@@ -1,0 +1,48 @@
+.top-nav {
+  border-bottom: 2px solid lightgrey;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.top-nav-logo {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+
+}
+
+.top-nav-title {
+  height: 100%;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  display: inline-block;
+  color: black;
+  align-self: center;
+}
+
+.top-nav-link {
+  height: 100%;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.top-nav-user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 20px;
+  align-self: center;
+}
