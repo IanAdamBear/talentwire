@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Switch, Route, Link } from 'react-router-dom'
+import TopMenu from './components/TopMenu/TopMenu';
+import SideMenu from './components/SideMenu/SideMenu';
+import Candidates from './components/Candidates/Candidates';
+import Skills from './components/Skills/Skills';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <TopMenu />
+        <SideMenu />
+
+        <Link to="/candidates">Candidates Link</Link>
+        <Link to="/skills">Skills Link</Link>
+
+        <Switch>
+          <Route path="/candidates" component={Candidates} />
+          <Route path="/skills" component={Skills} />
+        </Switch>
       </div>
+
     );
   }
 }
