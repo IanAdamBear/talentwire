@@ -12,7 +12,7 @@ export default function() {
       <Link className=" top-nav-link" to='/talent'>Talent</Link>
       <Link className=" top-nav-link" to='/skills'>Skills</Link>
       <Link className="top-nav-user-image" to='/user'>
-        <img className="top-nav-user-image" alt="user iamge" src={user} />
+        <img className="top-nav-user-image" alt="user image" src={user} />
       </Link>
     </div>
   );
