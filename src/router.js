@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import TalentLayout from './components/layout/talentLayout/talent-layout'
+
 import SkillsLayout from './components/layout/skillsLayout/skills-layout'
 import DashboardLayout from './components/layout/dashboardLayout/dashboard-layout'
 
